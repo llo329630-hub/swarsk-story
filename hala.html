@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر SWARSK للأساور الكلاسيكية الفاخرة</title>
+    <style>
+        /* التنسيقات العامة للموقع - طابع كلاسيكي عتيق وفخم */
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #fdfaf5;
+            color: #1a1a1a;
+            margin: 0;
+            padding: 0;
+            line-height: 1.7;
+        }
+
+        /* الهيدر (رأس الصفحة) */
+        header {
+            background-color: #2a1114; /* عنابي دافئ وداكن */
+            color: #f0e2cc; /* بيج كريمي */
+            text-align: center;
+            padding: 50px 0;
+            border-bottom: 4px solid #b39158; /* خط ذهبي عتيق */
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3.8rem;
+            letter-spacing: 3px;
+            font-weight: normal;
+        }
+
+        header p {
+            margin: 15px 0 0 0;
+            color: #e6d5b8;
+            font-style: italic;
+            font-size: 1.3rem;
+            letter-spacing: 1px;
+        }
+
+        /* حاوية المنتجات */
+        .container {
+            max-width: 1300px;
+            margin: 70px auto;
+            padding: 0 40px;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        /* بطاقة المنتج */
+        .product-card {
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 360px;
+            box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: all 0.4s ease;
+            border: 1px solid #eee;
+        }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+        }
+
+        /* تنسيق صور الأساور */
+        .product-card img {
+            width: 100%;
+            height: 420px;
+            object-fit: cover;
+            border-bottom: 2px solid #b39158;
+        }
+
+        /* تفاصيل المنتج */
+        .product-info {
+            padding: 30px;
+        }
+
+        .product-info h3 {
+            margin: 0 0 15px 0;
+            font-size: 1.7rem;
+            color: #2a1114;
+            font-weight: normal;
+        }
+
+        .product-info .description {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 25px;
+            height: 75px; 
+            overflow: hidden;
+        }
+
+        .product-info .price {
+            font-size: 1.9rem;
+            font-weight: bold;
+            color: #a07840;
+            margin-bottom: 25px;
+            display: block;
+        }
+
+        /* زر الشراء */
+        .btn-buy {
+            background-color: transparent;
+            color: #2a1114;
+            border: 2px solid #2a1114;
+            padding: 12px 25px;
+            font-size: 1.1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .btn-buy:hover {
+            background-color: #2a1114;
+            color: #f0e2cc;
+        }
+
+        /* الفوتر (تذييل الصفحة) */
+        footer {
+            background-color: #2a1114;
+            color: #e6d5b8;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 100px;
+            font-size: 1.1rem;
+            border-top: 3px solid #b39158;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>SWARSK</h1>
+        <p>Classic Silver Bracelets with Radiant Gemstones</p>
+    </header>
+
+    <div class="container">
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=600&auto=format&fit=crop" alt="The Heritage Multi-Gem Bracelet">
+            <div class="product-info">
+                <h3>The Heritage Trio Set</h3>
+                <p class="description">مجموعة راقية من الأساور الفضية الكلاسيكية المطعمة بنقاط الألماس، والزمرد الأخضر الفاتن والياقوت الناعم.</p>
+                <span class="price">19,500 ر.س</span>
+                <button class="btn-buy">PURCHASE NOW</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?q=80&w=600&auto=format&fit=crop" alt="The Classic Emerald Bangle">
+            <div class="product-info">
+                <h3>The Royal Emerald Cuff</h3>
+                <p class="description">سوار صلب فاخر من الفضة الاسترلينية، مرصع بقطع مربعة كلاسيكية من الزمرد الأخضر النقي ومحاط بهالة من الألماس.</p>
+                <span class="price">24,000 ر.س</span>
+                <button class="btn-buy">PURCHASE NOW</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=600&auto=format&fit=crop" alt="The Vintage Ruby Bracelet">
+            <div class="product-info">
+                <h3>The Vintage Ruby Chain</h3>
+                <p class="description">سوار كلاسيكي بنمط هندسي فريد من الفضة البراقة، يتوسطه حجر ياقوت أحمر ملكي على شكل قلب ومحاط بقطع الألماس النادرة.</p>
+                <span class="price">26,500 ر.س</span>
+                <button class="btn-buy">PURCHASE NOW</button>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>All Rights Reserved © SWARSK Luxury Jewels</p>
+    </footer>
+
+</body>
+</html>
